@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Elementos de Formulário</title>
+    </head>
+    <body>
+        <header><h1>Exemplo de formulário no HTML</h1></header>
+        <article>
+            <form method="post" id="contato" action="mailto:adrianadutra99@gmail.com" oninput="result.value=parseInt(valor01.value)+parseInt(valor02.value)" oninput="result.value"=parseInt()>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required="required" />
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" size="21" /><br /><br />
+                <label for="email">E-mail:</label>
+                <input
+                    type="email"
+                    id="email"
+                    size="58"
+                    placeholder="exemplo@email.com"
+                /><br /><br />
+                <p>Você mora:</p>
+                <input type="radio" name="tipo" id="cid" />
+                <label for="cid">Cidade</label><br />
+                <input type="radio" name="tipo" id="inter" />
+                <label for="inter">Interior</label><br />
+                
+                <p>Qual meio de transporte você usa?</p>
+                <input type="checkbox" id="transporte1" name="transporte1"/> 
+                <label for="transporte1"> Bicicleta</label><br /> 
+                <input type="checkbox" id="transporte2" name="transporte2"/> 
+                <label for="transporte2"> Carro</label><br /> 
+                <input type="checkbox" id="transporte3" name="transporte3"/> 
+                <label for="transporte3"> Metrô</label><br /> <br />
+ 
+                <label for="time">Selecione sua cor favorita:</label> 
+                <select id="cor" name="cor"> 
+                    <option value="select" hidden>Selecione</option>
+                    <option value="amarelo">Amarelo</option>
+                    <option value="azul">Azul</option>
+                    <option value="vemelho">Vermelho</option>
+                    <option value="verde">Verde</option>
+                </select> <br /> <br />
+                <label for="Cid">Escolha a sua Cidade na lista:</label>
+                <input autocomplete="on" list="cidade" name="Cid" id="Cid" placeholder="Sua Cidade" />
+                <datalist id="cidade">
+                <option value="São Paulo"></option>
+                <option value="Campinas"></option>
+                <option value="Santos"></option>
+                <option value="Santo André"></option>
+                <option value="Osasco"></option> 
+            </datalist><br /> <br />
+            &#160;0 
+            <input type="range" id="valor01" name="valor01" />
+            100 + 
+            <input type="number" id="valor02" name="valor02" value="50" /> 
+            =
+            <output name="result" for="valor01 valor02"></output>            
+            <br />
+            <p>Caixa de sugestões:</p>
+            <textarea name="message" cols="62" rows="10" placeholder="Deixe sua mensagem!"></textarea><br /><br /> 
+                <input type="submit" value="Enviar" />
+            </form>
+        </article>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+nav{
+    text-align: center;
+    position: sticky;
+    background-color: lavender;
+    top: 0;
+}
+body{
+    margin-top: 0;
+}

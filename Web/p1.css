@@ -1,0 +1,17 @@
+nav{
+    text-align: center;
+    position: sticky;
+    background-color: lavender;
+    top: 0;
+}
+body{
+    text-align: center;
+    margin-top: 0;
+}
+article{
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(85, 5, 160);
+}
