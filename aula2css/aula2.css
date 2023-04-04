@@ -1,0 +1,25 @@
+body{
+    background-color: #DEEFE7;
+}
+H1{
+    background-color:#B4BEC9;
+    color:#159A9C;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(183, 255, 251);
+}
+p{
+    text-indent: 3em;
+    color: #345564;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFFFFF;
+}
+H2{
+    color: #B4BEC9;
+    background-color:#159A9C;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
