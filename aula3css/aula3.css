@@ -1,0 +1,33 @@
+/* Classe pode ser aplicada a qualque elemento de html com atributo class */
+*{
+    background-color: oldlace;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.criandoclasses{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 25px;
+    color: rgb(76, 199, 252);
+}
+/* Pode ser aplicado a todos os elementos H2 */
+H2.exemplo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: indigo;
+}
+/* Apenas elemento de id "seila" */
+#seila{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: purple;
+}
+article p{
+    color: tomato;
+}
+section p{
+    color: yellowgreen;
+}
+h1{
+    border-bottom: dotted 3px black;
+}
