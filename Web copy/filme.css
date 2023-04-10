@@ -10,6 +10,8 @@ body{
 }
 h2{
     text-align: center;
+    color: rgb(69, 4, 69);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1{
@@ -33,13 +35,14 @@ p{
 display: flex;
 align-items: center;
 text-align: justify;
+color: rgb(69, 4, 69);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
 nav{
     color: white;
     text-align: center;
     position: sticky;
-    background-color:lavender;
     top: 0;
     font-size: 25px;
 }
@@ -72,4 +75,4 @@ img{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .topnav a:hover{
-    background-color: blueviolet;}
+    background-color: rgb(136, 97, 172);}
