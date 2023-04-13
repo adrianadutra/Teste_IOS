@@ -1,0 +1,24 @@
+
+
+.dv1{
+    background-color:#015958;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+.dv2{
+    background-color:#0CABA8;
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+h2{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+h5{
+    display: inline-block;
+}
