@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.container {
+    height: 650px;
+    width: 650px;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.item1 {
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    margin: 10px;
+}
+
+.item2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.item3 {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin: 10px;
+}
