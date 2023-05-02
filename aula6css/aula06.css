@@ -1,0 +1,36 @@
+input:focus {
+    background-color: aquamarine;
+}
+
+.pc::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+a:link {
+    color: green;
+}
+
+a:active {
+    color: gray;
+}
+
+a:visited {
+    color: pink;
+}
+
+.p1::after {
+    content: " - wow";
+}
+
+.p2::before {
+    content: " P2 - ";
+}
+
+.p3::selection {
+    background-color: aqua;
+    color: palevioletred;
+}
+.line::first-line{
+    background-color: yellow;
+}

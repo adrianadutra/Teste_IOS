@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(214, 244, 254);
+}
+H1{
+    color: blue;
+}
+H2{
+    color: blueviolet;
+}
+@media(max-width:500px) {
+     h1{
+color:pink;
+    }
+    p{
+        color:aquamarine;
+    }
+}
