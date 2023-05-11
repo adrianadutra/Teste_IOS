@@ -1,11 +1,261 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
- <title>Meu site</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imagens/letter-a.png" type="image/x-icon">
+    <title>Adriana Dutra</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
- Esse é meu site.
- Coloquei uma nova linha.
- Formulário de login
+    <header>
+        <a href="#" class="logo">Adriana Dutra</a>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#sec">Sobre mim</a></li>
+            <li><a href="#CV">Currículo</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <img src="imagens/stars.png" id="stars" alt="stars" />
+        <img src="imagens/moon.png" id="moon" alt="moon" />
+        <img src="imagens/mountains_behind.png" id="mountains_behind" />
+        <h2 id="text"></h2>
+        <a href="#sec" id="btn">Explore</a>
+        <img src="imagens/mountains_front.png" id="mountains_front" />
+    </section>
+
+    <div class="sec" id="sec">
+        <h2>Olá!</h2>
+        <p>
+            Meu nome é Adriana Dutra tenho 21 anos, sou formada em Administração com ênfase Comércio Exterior pela
+            São Judas.
+            Aos 16 anos iniciei meu primeiro emprego como professora de inglês em uma escola de idiomas, entrei na
+            faculdade e durante o período da graduação trabalhei em duas empresas, a primeira foi a Konica Minolta
+            comecei como Estagiária de Importação e depois trabalhei como Analista de Logística Junior, nos ultimos dois
+            anos da graduação realizei um estágio em Marketing na área de Planejamento de Demanda na Pirelli.
+            </p>
+           <p> Tenho muito interesse na área de planejamento e diversas oportunidades na área tem como requisito obrigatório experiência com programação, assim como tantas outras áreas hoje em dia, e por este motivo iniciei o curso de Desenvolvimento Web, voltado a programação, no IOS - Instituto da Oportunidade Social.
+        </p>
+        <br>
+        <br>
+        <div class="container" id="CV">
+            <div class="left_side">
+                <div class="profileText">
+                    <div class="imgbx">
+                        <img src="imagens/eu.png">
+                    </div>
+                    <h2>Adriana Dutra<br><span class="sub">Estudante de programação</span></h2>
+                </div>
+                <div class="contactInfo">
+                    <h3 class="title">Contato</h3>
+                    <ul>
+                        <li>
+                            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">(11) 99018-6562</span>
+                        </li>
+                        <li>
+                            <span class="icon"> <a href="mailto:adrianadutra99@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>    
+                            </span>
+                            <span class="text">adrianadutra99@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="icon"><a href="https://www.linkedin.com/in/adriana-dutra-de-aguiar-269104194/">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </span>
+                            <span class="text">LinkedIn</span>
+                        </li>
+                        <li>
+                            <span class="icon"><a href="https://github.com/adrianadutra">
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                            </span>
+                            <span class="text">GitHub</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Brasil, São Paulo</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="right_Side">
+                <div class="about">
+                    <H3 class="title2">Experiência</H3>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>JANEIRO DE 2021 - DEZEMBRO DE 2022</h5>
+                            <h5>Pirelli S.p.A.</h5>
+                        </div>
+                        <div class="text">
+                            <h4>Estagiária de Planejamento de Demanda</h4>
+                            <p>
+                            <ul>
+                                <li>Realização do Forecast de vendas do Brasil, Chile, Colômbia, Paraguai e Uruguai</li>
+                                <li>Analise da acuracidade de vendas mensais da América Latina </li>
+                                <li>Criação e follow up de targets de venda para clientes nacionais</li>
+                                <li>Analise de estoques de revendas nacionais</li>
+                                <li>Analise de market share e price points de medidas</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>AGOSTO DE 2020 - <br> DEZEMBRO DE 2020</h5>
+                            <h5>Konica Minolta</h5>
+                        </div>
+                        <div class="text">
+                            <h4>Analista de Logística Júnior</h4>
+                            <p>
+                            <ul>
+                                <li>Auxilio na logística nacional de insumos para clientes</li>
+                                <li>Desenvolvimento de relatórios no sistema SAP</li>
+                                <li>Criação de notas fiscais</li>
+                                <li>Contato com clientes nacionais, transportadoras e técnicos</li>
+                                <li>Agendamento de visitas técnicas</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>JULHO DE 2019 - <br> ABRIL DE 2020</h5>
+                            <h5>Konica Minolta</h5>
+                        </div>
+                        <div class="text">
+                            <h4>Estagiária de Importação, Supply Chain</h4>
+                            <p>
+                            <ul>
+                                <li>Conferência de documentos relativos a importações aéreas e marítimas (Proforma Invoice,
+                                    Invoice, AWB/BL)</li>
+                                <li>Criação de pedidos no SAP</li>
+                                <li>Follow up de datas de embarques (ETD e ETA) e solicitação de booking</li>
+                                <li>Contato com fornecedores do Japão e Estados Unidos</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>AGOSTO DE 2018 - <br> JULHO DE 2019</h5>
+                            <h5>Wizard Idiomas </h5>
+                        </div>
+                        <div class="text">
+                            <h4>Professora de Inglês</h4>
+                            <p>
+                            <ul>
+                                <li> Aulas de inglês individuais e em grupos para diversas faixas etárias</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about skill">
+                    <H3 class="title2">Habilidades</H3>
+                    <div class="box">
+                        <h4>HTML</h4>
+                        <div class="percent">
+                            <div style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4>CSS</h4>
+                        <div class="percent">
+                            <div style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4>Javascript</h4>
+                        <div class="percent">
+                            <div style="width: 25%;"></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4>Pacote Office</h4>
+                        <div class="percent">
+                            <div style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4>Inglês</h4>
+                        <div class="percent">
+                            <div style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4>Espanhol</h4>
+                        <div class="percent">
+                            <div style="width: 55%;"></div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+    </div>
+</div>
+<footer>
+    <p>
+        <a href="#" class="logo">Home</a>&#160; &#160;|
+        &#160; &#169; 2023 Adriana Dutra &#160;	&#160;	|
+        <span class="icon"> <a href="mailto:adrianadutra99@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>    
+        </span>
+        <span class="icon"><a href="https://www.linkedin.com/in/adriana-dutra-de-aguiar-269104194/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </span>
+        <span class="icon"><a href="https://github.com/adrianadutra">
+                <i class="fa fa-github" aria-hidden="true"></i></a>
+        </span>
+    </p>
+  </footer>
+
+    <script>
+        let stars = document.getElementById("stars");
+        let moon = document.getElementById("moon");
+        let mountains_front = document.getElementById("mountains_front");
+        let mountains_behind = document.getElementById("mountains_behind");
+        let text = document.getElementById("text");
+        let btn = document.getElementById("btn");
+        let header = document.querySelector("header");
+
+        window.addEventListener("scroll", function () {
+            let value = window.scrollY;
+
+            stars.style.left = value * 0.25 + "px";
+            moon.style.top = value * 1.05 + "px";
+
+            mountains_behind.style.top = value * 0.5 + "px";
+            mountains_front.style.top = value * 0 + "px";
+
+            text.style.marginRight = value * 4 + "px";
+            text.style.marginTop = value * 1.5 + "px";
+            btn.style.marginTop = value * 1.5 + "px";
+
+            header.style.top = value * 0.5 + "px";
+        });
+    </script>
 </body>
+
 </html>
